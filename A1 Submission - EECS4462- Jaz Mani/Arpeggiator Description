@@ -14,3 +14,4 @@ the output will be C3, D3, C4, D4, C5, D5 since there are two additional octaves
 In addition, I implemented a few different speed combinations for certain notes which allows the user to halve or double the duration of the first and last notes in combination
 with each other, which creates for more variety in arpeggiation.
 
+Enjoy!
