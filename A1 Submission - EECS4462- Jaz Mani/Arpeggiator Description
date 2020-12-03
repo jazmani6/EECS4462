@@ -1,0 +1,16 @@
+This was an Arpeggiator which was created through the JUCE Framework in C++ to implement musical arpeggiation of MIDI Chords, and output them through an audio output.
+
+There are 4 main types of Arpeggiation of notes, which I will go into detail on below:
+
+1. Ascending, which means that notes inputted on a keyboard will be played in ascending order, ex. for notes E4, G4, and C4, notes will be played in the order C4, E4, G4
+2. Descending, which means that notes inputted on a keyboard will be played in descending order, ex. for notes E4, G4, and C4, notes will be played in the order G4, E4, C4
+3. Sweeping, which means that notes inputted on a keyboard will be played in ascending and then descending order, ex. for notes E4, G4, and C4, notes will be played in the order
+C4, E4, G4, G4, E4, C4
+4. Outside to Inside, which means notes inputted on a keyboard will be played Outwards to inwards, for notes C5, D5, E5,F5, the notes will be ordered C5, F5, D5, E5.
+
+Additional functionality includes setting arpeggiation for up to 3 octaves, so for instance, if C3, D3 is the input, and 2 is the number of octaves increased, 
+the output will be C3, D3, C4, D4, C5, D5 since there are two additional octaves.
+
+In addition, I implemented a few different speed combinations for certain notes which allows the user to halve or double the duration of the first and last notes in combination
+with each other, which creates for more variety in arpeggiation.
+
